@@ -61,7 +61,7 @@
 }
 
 .hero__right {
-    width: 50%;
+    width: 30%;
 }
 
 .hero__right img {
@@ -80,4 +80,133 @@
 
 .hero__left button:hover {
     background-color: #a7c6f7;
+}
+.top{
+    display:flex;
+    font-size: 48px;
+    font-weight: 900;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+.box{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #9abbfc;
+    border-radius: 15px;
+}
+.inside{
+    display: flex;
+    font-size: 18px;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+}
+.qlbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: justify;
+    gap: 15px;
+}
+.p{
+    display: flex;
+    width: 200px;
+    
+}
+.vb{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+}
+.ck{
+    display: flex;
+    width: 500px;
+    justify-content: end;
+}
+.body2{
+    display: flex;
+    justify-content: center;
+}
+.cbody2{
+    display: flex;
+    justify-content: center;
+}
+.vb p{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:300;
+    font-family: "Roboto", sans-serif;
+}
+.ck p{
+    font-weight: 700;
+    font-family:"Roboto", sans-serif;
+}
+.boxx{
+    display: flex;
+    background-color: #3882f6;
+    width: 750px;
+    height: 100px;
+    border-radius: 15px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.body3_right{
+    display: flex;
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #1ae2e9;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+.body3_right:hover{
+    background-color: rgb(135, 192, 209);
+}
+.body3_left{
+    color: rgb(167, 254, 254);
+}
+.body3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.body3_left h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.body3_left p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 223, 223);
+}
+.ket{
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 20px;
+}
+.mid{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.box-container.description{
+    text-align: justify;
+    display: inline;
+
 }
